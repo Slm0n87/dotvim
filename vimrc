@@ -66,14 +66,6 @@ let g:syntastic_check_on_wq = 1
 let g:syntastic_aggregate_errors = 1
 let g:syntastic_loc_list_height=3
 
-" yamllint
-let g:loaded_syntastic_yaml_yamllint_checker = 1
-
-" Syntastic (old version!)
-" let g:loaded_syntastic_puppet_puppetlint_checker=1
-
-" au BufRead,BufNewFile *.json set filetype=json
-
 " fugitive needs an english speaking git
 let g:fugitive_git_executable = 'LANG=en_US.UTF-8 git'
 
