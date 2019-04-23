@@ -13,7 +13,7 @@ some dependencies for plugins:
 ---------------------------------------------------------------------
 
     #ack.vim.git
-    apt install ack
+    apt install ack-grep
     #vim-fugitive
     apt install git
     #vim-puppet
