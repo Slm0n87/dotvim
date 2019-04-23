@@ -13,18 +13,18 @@ some dependencies for plugins:
 ---------------------------------------------------------------------
 
     #ack.vim.git
-    apt -y install ack
+    apt install ack
     #vim-fugitive
-    apt -y install git
+    apt install git
     #vim-puppet
-    apt -y install ruby
+    apt install ruby
     #syntastic
       # puppet
       gem install puppet-lint
       # yaml
-      apt -y intall yamllint
+      apt intall yamllint
       # xml
-      apt -y install libxml2-utils
+      apt install libxml2-utils
       # json
       npm install -g jsonlint
 
