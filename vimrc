@@ -69,6 +69,10 @@ let g:syntastic_loc_list_height=3
 " fugitive needs an english speaking git
 let g:fugitive_git_executable = 'LANG=en_US.UTF-8 git'
 
+" activate yamllint for syntastic
+ let g:syntastic_yaml_checkers = ['yamllint']
+
+
 " shortcuts
 nnoremap <silent> <F4>  :NERDTreeToggle<CR>
 
