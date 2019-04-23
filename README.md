@@ -18,7 +18,14 @@ some dependencies for plugins:
     apt -y install git
     #vim-puppet
     apt -y install ruby
-    gem install puppet-lint
+    #syntastic
+      # puppet
+      gem install puppet-lint
+      # yaml
+      apt -y intall yamllint
+      # xml
+      apt -y install libxml2-utils
+
     
     
 
