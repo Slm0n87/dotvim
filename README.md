@@ -25,6 +25,8 @@ some dependencies for plugins:
       apt -y intall yamllint
       # xml
       apt -y install libxml2-utils
+      # json
+      npm install -g jsonlint
 
     
     
