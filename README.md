@@ -19,6 +19,8 @@ some dependencies for plugins:
     #vim-puppet
     apt install ruby
     #syntastic
+      # shell scripts
+      apt install shellcheck
       # puppet
       gem install puppet-lint
       # yaml
