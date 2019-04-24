@@ -71,6 +71,7 @@ let g:fugitive_git_executable = 'LANG=en_US.UTF-8 git'
 
 " activate yamllint for syntastic
  let g:syntastic_yaml_checkers = ['yamllint']
+ let g:syntastic_yaml_yamllint_args = '-c ' . shellescape($HOME . '/.yamllint')
 
 
 " shortcuts
