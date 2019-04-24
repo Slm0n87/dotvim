@@ -22,7 +22,7 @@ some dependencies for plugins:
       # puppet
       gem install puppet-lint
       # yaml
-      apt intall yamllint
+      apt intall python3-pkg-resources yamllint
       # xml
       apt install libxml2-utils
       # json
