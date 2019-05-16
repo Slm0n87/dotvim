@@ -24,13 +24,22 @@ some dependencies for plugins:
       # puppet
       gem install puppet-lint
       # yaml
-      apt intall python3-pkg-resources yamllint
+      apt install python3-pkg-resources yamllint
       # xml
       apt install libxml2-utils
       # json
       npm install -g jsonlint
 
-    
+
+known issues::
+---------------------------------------------------------------------
+
+
+    **Error for jsonlint** /usr/bin/env: ‘node’: No such file or directory
+    # for some distributions 'nodejs' has to be executed instad of 'node'
+    # this can be solved by a symlink:
+    sudo ln -s /usr/bin/nodejs /usr/bin/node
+
     
 
 install plugins with vundle:
