@@ -29,6 +29,8 @@ some dependencies for plugins:
       apt install libxml2-utils
       # json
       npm install -g jsonlint
+      # php
+      apt install php-cli
 
 
 known issues::
