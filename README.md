@@ -31,6 +31,8 @@ some dependencies for plugins:
       npm install -g jsonlint
       # php
       apt install php-cli
+      # ansible
+      apt install ansible-lint
 
 
 known issues::
